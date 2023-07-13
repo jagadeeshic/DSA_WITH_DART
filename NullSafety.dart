@@ -6,7 +6,9 @@ void main()
 
  String? name  = null;// Nullable type. Can be `null` or string.
 
-String one  = null; // Non-nullable type. Cannot be `null` but can be string.
+String one  = 'Hello'; // Non-nullable type. Cannot be `null` but can be string.
+
+//print(name.hashCode);
 
 int? lineCount;
 assert(lineCount == null);
